@@ -1,0 +1,309 @@
+.contenedor {
+  font-size: 50px;
+}
+
+body {
+  background: linear-gradient(
+    -45deg,
+    white,
+    rgba(216, 189, 210, 0.774),
+    rgb(248, 237, 246) º
+  );
+  font-family: "Special Elite", cursive;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  width: 98%;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.negrita {
+  display: flex;
+  color: white;
+}
+.negrita a {
+  padding-top: 3px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.texto {
+  font-size: 20px;
+  padding-top: 20px;
+}
+*/ h2 {
+  padding-top: 30px;
+}
+.filters {
+  display: flex;
+}
+.header {
+}
+header img {
+  height: 55px;
+}
+.logo {
+  justify-content: space-between;
+  background: linear-gradient(
+    -45deg,
+    rgb(12, 8, 11),
+    rgba(51, 50, 50, 0.774),
+    rgb(12, 11, 12)
+  );
+}
+.titulo {
+  display: flex;
+}
+
+footer p {
+  text-align: center;
+}
+.photo {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.photo img {
+  height: 160px;
+}
+
+.nav a {
+  color: white;
+}
+.navstyle {
+  display: flex;
+  font-size: 12px;
+  background-color: #154d9a;
+  align-items: center;
+}
+footer p {
+  margin-top: 255px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+.sobre {
+  color: white;
+  justify-content: flex-end;
+  font-size: 15px;
+  display: flex;
+  padding-right: 30px;
+}
+.sobre a {
+  color: white;
+  font-size: 20px;
+}
+
+.filters label {
+  padding-left: 23px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  margin: 0px 371px 125px 0px;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+#myInput {
+  background-image: url("/css/searchicon.png"); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+#myTable {
+  border-collapse: collapse; /* Collapse borders */
+  width: 100%; /* Full-width */
+  border: 1px solid #ddd; /* Add a grey border */
+  font-size: 18px; /* Increase font-size */
+}
+
+#myTable th,
+#myTable td {
+  text-align: left; /* Left-align text */
+  padding: 12px; /* Add padding */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+#more {
+  display: none;
+}
+
+#text {
+  display: none;
+  font-size: 20px;
+}
+.btn-container {
+  margin: auto;
+  height: 44px;
+  width: 166.23px;
+}
+a:active {
+  color: #ffd323;
+}
+
+.btn-container button {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  cursor: pointer;
+  border: none;
+  padding: 8px;
+  font-size: 20px;
+  background: linear-gradient(141deg, black 0%, black 51%, black 75%);
+  color: white;
+
+  box-sizing: border-box;
+}
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+  color: #fff;
+  top: 5px;
+}
+#loading {
+  background-size: 200px;
+
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/f1055231234507.564a1d234bfb6.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.page {
+  display: none;
+  padding: 0 0.5em;
+}
+.page h1 {
+  font-size: 2em;
+  line-height: 1em;
+  margin-top: 1.1em;
+  font-weight: bold;
+}
+.page p {
+  font-size: 1.5em;
+  line-height: 1.275em;
+  margin-top: 0.15em;
+}
+/*  */
+#spinner:not([hidden]) {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#spinner::after {
+  content: "";
+  width: 80px;
+  height: 80px;
+  border: 2px solid #f3f3f3;
+  border-top: 3px solid #f25a41;
+  border-radius: 100%;
+  will-change: transform;
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#fija {
+  width: 320px;
+}
